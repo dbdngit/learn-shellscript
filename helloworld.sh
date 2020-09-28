@@ -4,3 +4,4 @@ date
 echo "I am in to release pipeline"
 echo "\n\nI am testing from jenkins.. Hook services"
 echo "Poll scm works "
+echo "still it didn't triggerd"

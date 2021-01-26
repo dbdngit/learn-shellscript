@@ -8,6 +8,6 @@ echo "Poll scm works "
 echo "still it didn't triggerd"
 echo "my machine IP is :"
 ifconfig  | grep -A1 eth0 | grep inet
-sleep 120
+sleep 5
 echo "we are done with build"
-echo "new change "
+echo "new change after webhook implementation  "

@@ -1,3 +1,4 @@
+echo "trigged via webhook"
 echo "Hello World!!!!!!"
 echo "This is for auto trigger test"
 date

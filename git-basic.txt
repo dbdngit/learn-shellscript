@@ -1,0 +1,16 @@
+git basic
+----------------
+scenario-1: for fresh setup git in local 
+Prerequsite: Locally git package and remote (github a new repo)
+1. locally create a new directory e.g earth
+2. cd to earth
+3. initalize git 
+	git init    # Please do ls -a and you will find .git folder (which holds git metadata )
+4. create your projct file/folder etc
+	mkdir -p sea/atlantic sea/pacific sea/indian      # creating directory called sea and ocean as subdirectory 
+	touch sea/atlantic/Atlantic_Ocean.txt sea/pacific/Pacific_Ocean.txt sea/indian/Indian_Ocean.txt  
+5. git status   # It will show staus of files changed in local machine to local git repo
+6. git add 	# add change into your local repo
+7. git commit -m "your code change messages "
+9. git status  # Check any untracked files
+10. git push ssh://git@github.com:your_remore_repo/repofile.git    # ssh syntax can abe achived from github site itself 

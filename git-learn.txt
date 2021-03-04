@@ -1,0 +1,28 @@
+git has few basic task please practise 
+	- branching
+	- clone
+	- commit
+	- push and pull 
+	- pull request  ( branch to branch file merge )
+	- branch policy 
+	- merger, conflict
+Branching: 
+                                                *------*------*-------(master branch or main branch )
+							\
+							  --------*----*----- (feature branch)	
+List of branch
+	1. git branch --list
+Create a new branch
+	2. git branch new-feature-branch    # choose your feature branch name 
+Delete existing branch 
+	3. git branch -d your-existing-branch 
+
+clone: 
+	git is distrubuted repository (No server -clinet model as like svn )
+	
+	Local Repo    ----- >> clone /pull/push <<  ------- remote repo (azure git, github, bitbucket server )
+
+	clone can be perform with a. ssh b. http c. gitclient  (it brings complete infromation from other system to your system) <Yes authentication required>
+
+	git pull or git fetch perform same operation ( local --<<---<< ----- remote )
+	git push (From local --->>-->>  remote )  
